@@ -1,0 +1,36 @@
+.navbar{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+
+}
+
+.LOGO{
+    color: blueviolet;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.navlinks{
+color: transparent;
+display: flex;
+}
+
+.navlinks a{
+    color: black;
+    text-decoration: none;
+    transition: color 0.5s ease-in-out;
+}
+
+.navlinks li{
+    margin-right: 30px;
+}
+
+.navlinks a:hover{
+    color: rgb(247, 247, 247) (228, 235, 139);
+
+
+}
